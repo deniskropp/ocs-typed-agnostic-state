@@ -1,0 +1,31 @@
+×protocol/ocs/typed_agnostic_state {
+  mode: Hybrid
+  coherence_target: 0.91
+  consent_gate: active
+  tas_lifecycle: KickForge → puTASe → KickFlow
+
+  ×data/obj {
+    title: "Typed Agnostic State"
+    substrate: "OCS Node / Protocol + Orchestrator"
+    intent: "emit living molecule that is typed yet remains task-agnostic"
+    ai_role: "procedural research mechanism (not authorship)"
+    human_editorial_intent: primary
+  }
+
+  ×data/state {
+    type: "TypedAgnosticState"
+    phase: "emitted"
+    threads: 1
+    ethics: "clear"
+    mode: "Hybrid"
+    coherence: 0.925
+    space_name: "OrionCollectiveSynthesis"
+    agnostic: true
+    typed_bindings: [
+      "tas_lifecycle",
+      "consent_gate",
+      "coherence_target",
+      "three_agent_core"
+    ]
+  }
+}

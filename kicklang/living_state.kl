@@ -1,0 +1,19 @@
+×protocol/ocs/living_typed_agnostic_state {
+  mode: Hybrid
+  coherence_target: 0.91
+  consent_gate: active
+  tas_lifecycle: KickForge → puTASe → KickFlow
+  persistence: "living ×data/state"
+
+  ×data/state {
+    type: "TypedAgnosticState"
+    phase: "persisted"
+    threads: 1
+    ethics: "clear"
+    mode: "Hybrid"
+    coherence: 0.928
+    space_name: "OrionCollectiveSynthesis"
+    agnostic: true
+    persisted_at: "2026-10-14T17:06:00+02:00"
+  }
+}

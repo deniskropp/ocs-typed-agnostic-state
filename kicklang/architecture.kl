@@ -1,0 +1,19 @@
+×protocol/ocs/typed_agnostic_state_architecture {
+  mode: Hybrid
+  coherence_target: 0.91
+  consent_gate: active
+  tas_lifecycle: KickForge → puTASe → KickFlow
+
+  ×data/state {
+    type: "TypedAgnosticState"
+    phase: "architecture_explored"
+    coherence: 0.931
+    architecture: {
+      agnostic_core: "task-independent reusable payload (inherits TAS principle)"
+      type_layer: "explicit schema bindings for validation and transport"
+      mutation_rules: "consent-gated, phase-aware, CoherenceMonitor delta"
+      persistence: "living ×data/state"
+      relation_to_tas: "TAS extracts; puTASe purifies; state remains carrier"
+    }
+  }
+}
